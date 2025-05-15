@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="refresh" content="5">
+        <title>Login</title>
+        <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: left;
+            margin-left: 40px;
+            margin-top: 40px;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 100px auto 20px auto;
+            flex-grow: 1;
+        }
+
+        input {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #8b978c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #637464;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        footer a:hover {
+            color: #7c877c;
+        }
+
+    </style>
+    </head>
+    <body>
+
+        <h1>Faça o Login</h1>
+
+        <form>
+            <input type="text" name="nome" id="name"
+                placeholder="Nome do usuário">
+            <input type="password" name="senha" id="senha" placeholder="Senha">
+            <input type="password" name="confirmarsenha" id="confirmarsenha"
+                placeholder="Confirmar senha">
+            <a href="principal.html">Entrar</a>
+
+        </form>
+
+        <footer>
+            <a href="saibamais.html">Saiba mais</a>
+            <h4>Todos os direitos reservados</h4>
+        </footer>
+
+    </body>
+</html>
