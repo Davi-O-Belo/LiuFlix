@@ -1,5 +1,5 @@
 body {
-    background-color: #f9f9f9;
+    background-color: #cccccc;
     margin: 0;
     padding: 20px;
     text-align: center;
@@ -13,7 +13,7 @@ h1 {
     margin-top: 20px;
     font-size: 32px;
     font-weight: bold;
-    border-left: 5px solid #007BFF; 
+    border-left: 10px solid #007BFF; 
     padding-left: 15px;
 }
 

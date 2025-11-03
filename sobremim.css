@@ -1,0 +1,39 @@
+body{
+    font-family:Arial;
+    background-color: #ffffff;
+    color: black;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    
+}
+ul li, ol li{
+    text-align: left;
+}
+h1{
+    color: black;
+    text-align: left;
+}
+#voltar{
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+p{
+    margin: 10px 0;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color:black;
+}
