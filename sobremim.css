@@ -18,6 +18,8 @@ h1{
 #voltar{
     margin-bottom: 20px;
     text-align: right;
+    color: black;
+    border-radius: 10px;
 }
 
 img{
